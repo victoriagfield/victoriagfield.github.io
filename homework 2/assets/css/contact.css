@@ -1,0 +1,63 @@
+
+body {
+  background-color: #4f2063;
+  background-image: url("../images/gradient2.jpg");
+  background-position: right;
+  color: #f0d194;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: normal;
+}
+
+/*navbar section*/
+.navbar, .navbar-nav, .navbar-brand, .nav-link, .navbar-toggler, .navbar-toggler-icon {
+  background: #4f2063;
+  color: #f0d194;
+}
+
+.navbar-expand-lg, .navbar-toggler {
+  color: #f0d194;
+  border-color: #f0d194;
+  background-color: #4f2063;
+}
+
+.container {
+  margin-top: 50px;
+  margin-left: 30%;
+}
+
+.btn {
+  color: #f0d194;
+  background: #4f2063;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .navbar-toggler .navbar-expand-lg {
+    border-radius: .25rem;
+    color: #f0d194;
+  }
+  
+  .navbar {
+    border: 1px solid #f0d194;
+  }
+
+  .container {
+    float: right;
+  }
+}
