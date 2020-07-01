@@ -27,8 +27,9 @@ body {
 }
 
 /*Email Me Section*/
-main {
+.container {
   margin-top: 100px;
+  /* margin-left: 30%; */
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -40,12 +41,10 @@ main {
 }
 
  /*Social icons*/
- 
- .fa {
+.fa {
   padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
+  font-size: 40px;
+  width: 20px;
   text-decoration: none;
   color: #f0d194;
 }
@@ -54,7 +53,6 @@ main {
   opacity: 0.7;
   color: aqua;
 }
-
 
 /*Media Section*/
 @media screen and (max-width: 768px) {
