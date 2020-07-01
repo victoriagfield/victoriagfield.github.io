@@ -1,0 +1,68 @@
+/*background images from shuttershock - stock photography*/
+
+/*body of the page*/
+body {
+  background-color: #4f2063;
+  background-image: url("../images/gradient2.jpg");
+  background-position: right;
+  color: #f0d194;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: normal;
+  }
+
+  /*Navbar Section*/
+.navbar, .navbar-nav, .navbar-brand, .nav-link, .navbar-toggler, .navbar-toggler-icon {
+  background: #4f2063;
+  color: #f0d194;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-expand-lg, .navbar-toggler{
+  color: #f0d194;
+  border-color: #f0d194;
+  background-color: #4f2063;
+}
+
+/*Main Content*/
+main{
+  padding: 10px;
+  margin-top: 100px;
+  border: 1px dashed #f0d194;
+    }
+
+h1 {
+  font-family: 'Monoton', cursive;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 25px;
+  font-family: 'Montserrat', sans-serif;
+  }
+
+  /*Media Section*/
+  @media screen and (max-width: 768px) {
+
+  .navbar-toggler .navbar-expand-lg {
+    border: 1px solid #f0d194;
+    border-radius: .25rem;
+    color: #f0d194;
+     }
+
+  .navbar {
+     border: 1px solid #f0d194;
+     }
+
+  img {
+     display: block;
+     margin: auto;
+     width: 230px;
+     height: 300px;
+      }
+
+  h1, p {
+      text-align: center;
+      }
+  }    

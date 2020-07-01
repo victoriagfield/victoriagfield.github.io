@@ -1,5 +1,6 @@
+/*background images from shuttershock - stock photography*/
 
-
+/*body of the page*/
  body {
   background-color: #4f2063;
   color: #f0d194;
@@ -13,6 +14,7 @@
 .navbar, .navbar-nav, .navbar-brand, .nav-link, .navbar-toggler, .navbar-toggler-icon {
   background: #4f2063;
   color: #f0d194;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-expand-lg, .navbar-toggler{
@@ -21,6 +23,7 @@
   background-color: #4f2063;
 }
 
+/*background image*/
 .hero {
   position: fixed;
   background-position: center;
@@ -30,11 +33,13 @@
   background-size: cover;
 }
 
+/*Card Section with projects*/
 .row {
   margin-top: 25px;
   color: #4f2063;
 }
 
+ /*Media Section*/
 @media screen and (max-width: 768px) {
 
   .navbar-toggler .navbar-expand-lg {

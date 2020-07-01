@@ -13,6 +13,7 @@ body {
 .navbar, .navbar-nav, .navbar-brand, .nav-link, .navbar-toggler, .navbar-toggler-icon {
   background: #4f2063;
   color: #f0d194;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-expand-lg, .navbar-toggler{
@@ -24,9 +25,11 @@ body {
 /*The Welcome text section*/
 .centered {
   padding: 25px;
+  margin-top: 40px;
   text-align: center;
-  font-size: 50px;
+  font-size: 70px;
   color: #f0d194;
+  font-family: 'Monoton', cursive;
 }
 
 /*background image*/
@@ -53,9 +56,13 @@ body {
  
 .hero {
   display: inline;
-  margin: 50px;
+  margin-top: 50px;
   width: 500px;
   height: 500px;
+}
+
+.centered {
+  margin-top: 0;
 }
 
 }

@@ -1,4 +1,6 @@
+/*background images from shuttershock - stock photography*/
 
+/*body of the page*/
 body {
   background-color: #4f2063;
   background-image: url("../images/gradient2.jpg");
@@ -14,6 +16,7 @@ body {
 .navbar, .navbar-nav, .navbar-brand, .nav-link, .navbar-toggler, .navbar-toggler-icon {
   background: #4f2063;
   color: #f0d194;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-expand-lg, .navbar-toggler {
@@ -22,42 +25,47 @@ body {
   background-color: #4f2063;
 }
 
+/*Email Me Section*/
 .container {
-  margin-top: 50px;
+  margin-top: 100px;
   margin-left: 30%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn {
   color: #f0d194;
   background: #4f2063;
+  font-family: 'Montserrat', sans-serif;
 }
 
+ /*Social icons*/
 .fa {
   padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
+  font-size: 40px;
+  width: 20px;
+  margin-left: 30%;
   text-decoration: none;
-  margin: 5px 2px;
+  color: #f0d194;
 }
 
 .fa:hover {
   opacity: 0.7;
+  color: aqua;
 }
 
-
+/*Media Section*/
 @media screen and (max-width: 768px) {
 
-  .navbar-toggler .navbar-expand-lg {
-    border-radius: .25rem;
-    color: #f0d194;
+.navbar-toggler .navbar-expand-lg {
+  border-radius: .25rem;
+  color: #f0d194;
   }
   
-  .navbar {
-    border: 1px solid #f0d194;
+.navbar {
+  border: 1px solid #f0d194;
   }
 
-  .container {
-    float: right;
+.container {
+  float: right;
   }
 }
