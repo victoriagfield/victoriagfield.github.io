@@ -1,57 +1,73 @@
 /*background images from shuttershock - stock photography*/
 
 /*body of the page*/
+html, body {
+  height: 100%;
+}
+    
 body {
-  background-color: #4f2063;
-  background-image: url("../images/gradient2.jpg");
-  background-position: right;
-  color: #f0d194;
-  padding: 0;
-  margin: 0;
-  font-size: 16px;
-  line-height: normal;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: white;
+   color: #4993cf;
 }
 
-/*navbar section*/
+/*This is the navbar section*/
 .navbar, .navbar-nav, .navbar-brand, .nav-link, .navbar-toggler, .navbar-toggler-icon {
-  background: #4f2063;
-  color: #f0d194;
+  background: def2fb;
+  color: #4993cf;
   font-family: 'Montserrat', sans-serif;
 }
 
-.navbar-expand-lg, .navbar-toggler {
-  color: #f0d194;
-  border-color: #f0d194;
-  background-color: #4f2063;
+.navbar-expand-lg, .navbar-toggler{
+  color: #4993cf;
+  border-color: #4993cf;
+  background-color: #def2fb;
 }
+
 
 /*Email Me Section*/
 .container {
-  margin-top: 100px;
-  /* margin-left: 30%; */
+  padding: 10px;
+  margin-top: 90px;
+  border: 1px dashed #4993cf;
+}
+
+.btn {
+  color: #4993cf;
+  background: #def2fb;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Footer Section*/
+.content {
+  flex: 1 0 auto;
+  color: #4993cf;
+}
+
+.footer {
+  flex-shrink: 0;
+  background: #def2fb;
+  color: #4993cf;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
-.btn {
-  color: #f0d194;
-  background: #4f2063;
-  font-family: 'Montserrat', sans-serif;
-}
-
- /*Social icons*/
+/*social links in the footer*/
 .fa {
-  padding: 20px;
-  font-size: 40px;
-  width: 20px;
+  padding: 10px;
+  font-size: 20px;
   text-decoration: none;
-  color: #f0d194;
+  color: #4993cf;
 }
 
 .fa:hover {
   opacity: 0.7;
-  color: aqua;
+  color: #a0d5ae;
+}
+
+#social {
+  color: #4993cf;
 }
 
 /*Media Section*/
