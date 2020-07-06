@@ -103,6 +103,5 @@ img{
 
   .col{
     display: flex;
-    flex-wrap: wrap;
   }
 }
