@@ -1,42 +1,87 @@
 /*background images from shuttershock - stock photography*/
 
 /*body of the page*/
- body {
-  background-color: #4f2063;
-  color: #f0d194;
-  padding: 0;
-  margin: 0;
-  font-size: 16px;
-  line-height: normal;
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  color: #4993cf;
 }
 
 /*navbar section*/
 .navbar, .navbar-nav, .navbar-brand, .nav-link, .navbar-toggler, .navbar-toggler-icon {
-  background: #4f2063;
-  color: #f0d194;
+  background: def2fb;
+  color: #4993cf;
   font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-expand-lg, .navbar-toggler{
-  color: #f0d194;
-  border-color: #f0d194;
-  background-color: #4f2063;
+  color: #4993cf;
+  border-color: #4993cf;
+  background-color: #def2fb;
 }
 
-/*background image*/
-.hero {
-  position: fixed;
-  background-position: center;
-  height: 100%;
-  width: 100%;
-  background-image: url("../images/port1.jpg");
-  background-size: cover;
+/*Project main text*/
+h1{
+  margin-top: 60px;
+  text-align: center;
+  font-family: 'Vast Shadow', cursive;
 }
 
-/*Card Section with projects*/
-.row {
-  margin-top: 25px;
-  color: #4f2063;
+/*Portfolio Section*/
+.container{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.card-body{
+  border: 1px solid #4993cf;
+}
+
+img{
+  border: 1px solid #4993cf;
+}
+
+.btn{
+  background-color: #def2fb;
+  color: #4993cf;
+  font-weight: bold;
+}
+
+.btn:hover{
+  opacity: 0.7;
+  color: #a0d5ae;
+}
+
+/*Footer Section*/
+.content {
+  flex: 1 0 auto;
+  color: #4993cf;
+}
+
+.footer {
+  flex-shrink: 0;
+  background: #def2fb;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/*social links in the footer*/
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #4993cf;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: #a0d5ae;
 }
 
 
@@ -45,10 +90,19 @@
 
   .navbar-toggler .navbar-expand-lg {
     border-radius: .25rem;
-    color: #f0d194;
+    color: #4993cf;
   }
   
   .navbar {
-    border: 1px solid #f0d194;
+    border: 1px solid #4993cf;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .col{
+    display: flex;
+    flex-wrap: wrap;
   }
 }

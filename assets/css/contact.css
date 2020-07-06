@@ -74,14 +74,15 @@ body {
 @media screen and (max-width: 768px) {
 
 .navbar-toggler .navbar-expand-lg {
-  border-radius: .25rem;
-  color: #f0d194;
+  .navbar-toggler .navbar-expand-lg {
+    border-radius: .25rem;
+    color: #4993cf;
   }
   
-.navbar {
-  border: 1px solid #f0d194;
+  .navbar {
+    border: 1px solid #4993cf;
   }
-
+ 
 .container {
   float: right;
   }
