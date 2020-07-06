@@ -1,7 +1,4 @@
-/*background images from shuttershock - stock photography*/
-
 /*body of the page*/
-
 html, body {
   height: 100%;
 }
@@ -62,6 +59,7 @@ img{
 .content {
   flex: 1 0 auto;
   color: #4993cf;
+  margin-top: 100px;
 }
 
 .footer {
@@ -69,6 +67,7 @@ img{
   background: #def2fb;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  
 }
 
 /*social links in the footer*/
@@ -88,20 +87,22 @@ img{
  /*Media Section*/
 @media screen and (max-width: 768px) {
 
-  .navbar-toggler .navbar-expand-lg {
-    border-radius: .25rem;
-    color: #4993cf;
-  }
+.navbar-toggler .navbar-expand-lg {
+  border-radius: .25rem;
+  color: #4993cf;
+}
   
-  .navbar {
-    border: 1px solid #4993cf;
-  }
+.navbar {
+  border: 1px solid #4993cf;
+}
 
-  h1{
-    text-align: center;
-  }
+h1{
+  text-align: center;
+}
 
-  .col{
-    display: flex;
-  }
+.col-md-4{
+  justify-content: center;
+  display: flex;
+  margin-top: 0;
+}
 }
