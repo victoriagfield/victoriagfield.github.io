@@ -44,6 +44,30 @@ img{
   border: 1px solid #4993cf;
 }
 
+#plannerText {
+  padding: 2px;
+}
+
+#weatherAppText{
+  padding: 22.5px;
+}
+
+#dinnerDiceText{
+  padding: 8px;
+}
+
+#dinnerDice{
+  padding: 38px;
+}
+
+#passwordGen{
+  padding: 47px;
+}
+
+#passwordText{
+  padding: 2px;
+}
+
 .btn{
   background-color: #def2fb;
   color: #4993cf;
