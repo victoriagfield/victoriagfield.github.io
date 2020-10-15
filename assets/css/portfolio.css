@@ -68,6 +68,14 @@ img{
   padding: 2px;
 }
 
+#bookmarkedText{
+  padding: 2px;
+}
+
+#bookmarkedLogo {
+  padding: 70px;
+}
+
 .btn{
   background-color: #def2fb;
   color: #4993cf;
