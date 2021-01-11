@@ -6,21 +6,27 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  background: white;
+  background-image: linear-gradient(to left, #e0eeff, white);
   color: #4993cf;
 }
 
 /*navbar section*/
+/*This is the navbar section*/
 .navbar, .navbar-nav, .navbar-brand, .nav-link, .navbar-toggler, .navbar-toggler-icon {
-  background: def2fb;
-  color: #4993cf;
+  /* background: #def2fb;*/
+  color: white;
   font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-expand-lg, .navbar-toggler{
-  color: #4993cf;
+  color: white;
   border-color: #4993cf;
-  background-color: #def2fb;
+  /* background-color: #def2fb; */
+  background-image: linear-gradient(to left, #91b3fa, #4993cf);
+}
+
+.nav-link:hover {
+  border-top: 4px solid #ff8983;
 }
 
 /*Project main text*/
@@ -34,22 +40,35 @@ h1{
 .container{
   margin-top: 40px;
   text-align: center;
+  display: inline;
 }
 
 .card-body{
   border: 1px solid #4993cf;
 }
 
+#newRow{
+  margin-top: 25px;
+}
+
 img{
   border: 1px solid #4993cf;
 }
 
+#dBugMeText{
+padding: px;
+}
+
 #plannerText {
-  padding: 2px;
+  padding: 7px;
 }
 
 #weatherAppText{
   padding: 22.5px;
+}
+
+#fitnessTrackerText {
+  padding: 2.5px;
 }
 
 #dinnerDiceText{
@@ -69,12 +88,16 @@ img{
 }
 
 #bookmarkedText{
-  padding: 2px;
+  padding: px;
 }
 
 #bookmarkedLogo {
-  padding: 70px;
+  padding: px;
 }
+
+#dBugMeLogo{
+  padding: 15px;
+  }
 
 .btn{
   background-color: #def2fb;
@@ -96,10 +119,9 @@ img{
 
 .footer {
   flex-shrink: 0;
-  background: #def2fb;
+  background-image: linear-gradient(to left, #91b3fa, #4993cf);
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  
 }
 
 /*social links in the footer*/
@@ -107,14 +129,12 @@ img{
   padding: 10px;
   font-size: 20px;
   text-decoration: none;
-  color: #4993cf;
+  color: white;
 }
 
 .fa:hover {
-  opacity: 0.7;
-  color: #a0d5ae;
+  color: #ff8983;
 }
-
 
  /*Media Section*/
 @media screen and (max-width: 768px) {

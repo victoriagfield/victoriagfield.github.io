@@ -6,21 +6,26 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  background: white;
+  background-image: linear-gradient(to left, #e0eeff, white);
   color: #4993cf;
 }
 
 /*This is the navbar section*/
 .navbar, .navbar-nav, .navbar-brand, .nav-link, .navbar-toggler, .navbar-toggler-icon {
-  background: def2fb;
-  color: #4993cf;
+  /* background: #def2fb;*/
+  color: white;
   font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-expand-lg, .navbar-toggler{
-  color: #4993cf;
+  color: white;
   border-color: #4993cf;
-  background-color: #def2fb;
+  /* background-color: #def2fb; */
+  background-image: linear-gradient(to left, #91b3fa, #4993cf);
+}
+
+.nav-link:hover {
+  border-top: 4px solid #ff8983;
 }
 
 h1{
@@ -50,8 +55,7 @@ h1{
 
 .footer {
   flex-shrink: 0;
-  background: #def2fb;
-  color: #4993cf;
+  background-image: linear-gradient(to left, #91b3fa, #4993cf);
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -61,12 +65,11 @@ h1{
   padding: 10px;
   font-size: 20px;
   text-decoration: none;
-  color: #4993cf;
+  color: white;
 }
 
 .fa:hover {
-  opacity: 0.7;
-  color: #a0d5ae;
+  color: #ff8983;
 }
 
 #social {
