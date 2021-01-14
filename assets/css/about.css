@@ -22,7 +22,7 @@ body {
   color: white;
   border-color: #4993cf;
   /* background-color: #def2fb; */
-  background-image: linear-gradient(to left, #91b3fa, #4993cf);
+  background-image: linear-gradient(to left, #91b3fa, #298ca5);
 }
 
 .nav-link:hover {
@@ -84,7 +84,7 @@ h3{
 
 .footer {
   flex-shrink: 0;
-  background-image: linear-gradient(to left, #91b3fa, #4993cf);
+  background-image: linear-gradient(to left, #91b3fa, #298ca5);
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }

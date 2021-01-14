@@ -1,7 +1,8 @@
 /*background image from shuttershock - stock photography*/
 
 /*body of the page*/
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -10,47 +11,78 @@ body {
   flex-direction: column;
   background: white;
   color: #4993cf;
+  background-image: linear-gradient(to left, #e0eeff, white);
 }
 
 /*This is the navbar section*/
-.navbar, .navbar-nav, .navbar-brand, .nav-link, .navbar-toggler, .navbar-toggler-icon {
+.navbar,
+.navbar-nav,
+.navbar-brand,
+.nav-link,
+.navbar-toggler,
+.navbar-toggler-icon {
   /* background: #def2fb;*/
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.navbar-expand-lg, .navbar-toggler{
+.navbar-expand-lg,
+.navbar-toggler {
   color: white;
   border-color: #4993cf;
   /* background-color: #def2fb; */
-  background-image: linear-gradient(to left, #91b3fa, #4993cf);
+  background-image: linear-gradient(to left, #91b3fa, #298ca5);
 }
 
 .nav-link:hover {
   border-top: 4px solid #ff8983;
 }
 
-
 /*Background Image Section*/
 .mainImage {
-  background-image: url("../images/20943839.jpg");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: contain;
   position: relative;
-  margin-top: 70px;
-  top: 0px;
-  left: 10px;
   width: 100%;
   height: 100%;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
 }
 
-/*Welcome Text*/
-.centered {
-  text-align: center;
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Welcome Text */
+.welcomeText {
+  margin-top: 250px;
   font-size: 70px;
   color: #4993cf;
-  font-family: 'Vast Shadow', cursive;
+  font-family: "Vast Shadow", cursive;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
+}
+
+.textSnippet {
+  margin-left: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
 }
 
 /*Footer Section*/
@@ -61,8 +93,8 @@ body {
 
 .footer {
   flex-shrink: 0;
-  background-image: linear-gradient(to left, #91b3fa, #4993cf);
-  font-family: 'Montserrat', sans-serif;
+  background-image: linear-gradient(to left, #91b3fa, #298ca5);
+  font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 
@@ -78,26 +110,35 @@ body {
   color: #ff8983;
 }
 
-/*Media Section for screen sizing*/ 
+/*Media Section for screen sizing*/
 @media screen and (max-width: 768px) {
+  .navbar-toggler .navbar-expand-lg {
+    border-radius: 0.25rem;
+    color: #4993cf;
+  }
 
-.navbar-toggler .navbar-expand-lg {
-  border-radius: .25rem;
-  color: #4993cf;
-}
+  .navbar {
+    border: 1px solid #4993cf;
+  }
 
-.navbar {
-  border: 1px solid #4993cf;
-}
- 
-.mainImage {
-  display: inline;
-  margin-top: 50px;
-  width: 500px;
-  height: 500px;
-}
+  .mainImage {
+    display: inline;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+  }
 
-.centered {
-  margin-top: 0;
-}
+  .welcomeText {
+    margin-top: 10px !important;
+    text-align: center !important;
+  }
+
+  .textSnippet{
+    text-align: center;
+    margin-bottom: 100px !important;
+  }
+
+  .centered {
+    margin-top: 0;
+  }
 }
