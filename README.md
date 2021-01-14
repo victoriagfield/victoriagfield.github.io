@@ -23,7 +23,7 @@ https://victoriagfield.github.io/ <br>
 
    <hr>
    
-  ##### Technologies Used:
+  ## Technologies Used:
   •HTML<br>
   •CSS<br>
   •Bootstrap<br>
