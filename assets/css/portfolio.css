@@ -110,6 +110,16 @@ padding: px;
   color: #a0d5ae;
 }
 
+#repoText{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+#repoText:hover{
+  color: #ff8983;
+}
+
 /*Footer Section*/
 .content {
   flex: 1 0 auto;
@@ -125,15 +135,22 @@ padding: px;
 }
 
 /*social links in the footer*/
-.fa {
+#footerIcons {
   padding: 10px;
   font-size: 20px;
   text-decoration: none;
   color: white;
 }
 
-.fa:hover {
+#footerIcons:hover {
   color: #ff8983;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
 }
 
  /*Media Section*/
