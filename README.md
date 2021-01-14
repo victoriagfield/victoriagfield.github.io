@@ -1,24 +1,45 @@
-# Victoria Greenfield
-https://victoriagfield.github.io/
+# Victoria Greenfield <br>
+https://victoriagfield.github.io/ <br>
 
-### Objective 
-My personal website that features dynamically updated HTML and CSS. This site utilizes Bootstrap and features a responsive layout.
+  <hr>
 
+  ## Table of Contents
+  * [Description](#description)
+  * [Images](#images)
+  * [License](#license)
+  * [Test](#test)
+  * [Technologies](#technologies)
+  * [Questions](#questions)
+  * [Resources](#resources)
+  
+<br>
+  <hr>
 
-### Images: 
+  ## Description: 
+   My personal portfolio!<br><hr>
+ 
+   
+   ## Images:
 
-![welcomePage](https://user-images.githubusercontent.com/66035385/90276753-699f4c80-de32-11ea-8757-4d9e7cb963d2.jpg)
-![aboutPage](https://user-images.githubusercontent.com/66035385/90276754-6a37e300-de32-11ea-99cf-b70184e2cf6c.jpg)
-![portfolioPage](https://user-images.githubusercontent.com/66035385/90276756-6a37e300-de32-11ea-846e-27576c7a15a3.jpg)
-![contactPage](https://user-images.githubusercontent.com/66035385/90276757-6a37e300-de32-11ea-8969-69f8c841d784.jpg)
+   <hr>
+   
+  ##### Technologies Used:
+  •HTML<br>
+  •CSS<br>
+  •Bootstrap<br>
+<hr>
+   ## License: 
+  [MIT](https://opensource.org/licenses/MIT)<br>
 
-### Demo:
-![website](https://user-images.githubusercontent.com/66035385/90277375-6fe1f880-de33-11ea-8c26-33f595da46c9.gif)
+   <hr>
+## Questions
+  Questions, concerns, want to say hey? I'd love to hear from you!<br>
+  ![VG](https://user-images.githubusercontent.com/66035385/101025330-6cd65980-3543-11eb-8c60-86bd511a689d.png)<br>
+  #### Victoria Greenfield
+  [GitHub: victoriagfield](https://github.com/victoriagfield)
+  [Email: victoriagfield@gmail.com](victoriagfield@gmail.com)<br>
+  Email or message me on LinkedIn!<br>
 
-##### Technologies Used:
-•HTML
-•CSS
-•Bootstrap
 
 ##### Resources:
 https://stackoverflow.com/, https://www.w3schools.com/, https://getbootstrap.com/, https://fontawesome.bootstrapcheatsheets.com/#, https://www.youtube.com/, https://developer.mozilla.org/en-US/docs/Learn
